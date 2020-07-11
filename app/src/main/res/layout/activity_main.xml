@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity" >
 
     <Button
         android:id="@+id/BtnRose"
@@ -14,7 +14,8 @@
         android:layout_marginTop="200dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/button_background"  />
 
     <Button
         android:id="@+id/BtnCactus"
@@ -24,7 +25,8 @@
         android:layout_marginTop="60dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BtnRose" />
+        app:layout_constraintTop_toBottomOf="@+id/BtnRose"
+        android:background="@drawable/button_cactus" />
 
     <Button
         android:id="@+id/BtnOak"
@@ -34,5 +36,6 @@
         android:layout_marginTop="60dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BtnCactus" />
+        app:layout_constraintTop_toBottomOf="@+id/BtnCactus"
+        android:background="@drawable/button_oak" />
 </androidx.constraintlayout.widget.ConstraintLayout>

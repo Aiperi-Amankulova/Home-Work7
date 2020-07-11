@@ -3,4 +3,7 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="roze">#fe7788</color>
+    <color name="cactus">#5b9e69</color>
+    <color name="oak">#663a1a</color>
 </resources>
