@@ -15,7 +15,7 @@ import android.widget.Toast
 
         val rose = RozeActivity()
         val cactus = CactusActivity()
-        val oak = Oak()
+        val oak = OakActivity()
 
         BtnRose.setOnClickListener {
             rose.makeAction()

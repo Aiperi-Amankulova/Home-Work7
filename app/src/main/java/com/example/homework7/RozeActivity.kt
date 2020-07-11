@@ -6,9 +6,6 @@ class RozeActivity : Grow() {
     override fun makeAction() {
 
         Log.d("________", "Grow Rose")
-
-
-
     }
 
 }
