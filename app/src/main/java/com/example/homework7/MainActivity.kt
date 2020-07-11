@@ -13,8 +13,8 @@ import android.widget.Toast
         val BtnCactus = findViewById<Button>(R.id.BtnCactus)
         val BtnOAK = findViewById<Button>(R.id.BtnOak)
 
-        val rose = Rose()
-        val cactus = Cactus()
+        val rose = RozeActivity()
+        val cactus = CactusActivity()
         val oak = Oak()
 
         BtnRose.setOnClickListener {
