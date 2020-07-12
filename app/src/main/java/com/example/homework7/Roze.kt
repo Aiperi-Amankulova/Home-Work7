@@ -2,10 +2,10 @@ package com.example.homework7
 
 import android.util.Log
 
-class RozeActivity : GrowActivity() {
+class Roze : Grow() {
     override fun makeAction() {
 
         Log.d("________", "Grow Rose")
     }
-
 }
+

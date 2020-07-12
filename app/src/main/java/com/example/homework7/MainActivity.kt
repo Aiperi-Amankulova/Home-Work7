@@ -14,9 +14,9 @@ import android.widget.Toast
         val btnCactus = findViewById<Button>(R.id.BtnCactus)
         val btnOAK = findViewById<Button>(R.id.BtnOak)
 
-        val rose = RozeActivity()
-        val cactus = CactusActivity()
-        val oak = OakActivity()
+        val rose = Roze()
+        val cactus = Cactus()
+        val oak = Oak()
 
         btnRose.setOnClickListener {
             rose.makeAction()
